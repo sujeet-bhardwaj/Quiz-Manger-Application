@@ -1,0 +1,26 @@
+.body{
+   min-height: 100vh;
+    width:100%;
+    display: flex;
+    justify-content:space-between;
+      background-color: #eceaff;
+}
+.image{
+  width: 85%;
+  height: 350px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  opacity: 0.8;
+} 
+.right{
+  padding: 10px;
+   width: 50%;
+   text-align: center;
+}
+.left{
+  padding: 10px 20px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}

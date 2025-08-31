@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+ 
+    "noImplicitReturns": true,
+    "alwaysStrict": true,
+      "esModuleInterop": true,
+       "outDir": "./dist" 
+  }
+}
+

@@ -1,0 +1,10 @@
+{
+   "env":{
+      "CONNCETING_STRING":"mongodb+srv://workshop:Sujeet95@cluster0.uodkbg9.mongodb.net/Student",
+      "LOCAL_STRING":"mongodb://localhost:27017/QuizDatabase",
+      "PORT":"3000" ,
+      "JWT_TOKEN":"12345"     
+   },
+   "watch":["src"],
+   "ext":"ts,json"
+}

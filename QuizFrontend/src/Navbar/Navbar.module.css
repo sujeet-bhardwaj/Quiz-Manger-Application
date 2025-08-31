@@ -1,0 +1,97 @@
+
+:root{
+  --color-primary:#0073ff;
+  --color-white:#e9e9e9;
+  --color-black:#141d28;
+  --color-black-1:#212b38
+}
+.body{
+   width: 100%;
+   color: #525252;
+}
+.container{
+  background-color: var(--color-black);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+}
+.title{
+  font-size:20px;
+  font-weight: 600;
+}
+.middlenav ul{
+    width: 100%;
+     display: flex;
+     list-style: none;
+     color: var(--color-white);
+}
+.middlenav ul li{
+      padding: 10px 10px;
+      position: relative;
+       transition: all 0.3s;
+}
+.middlenav ul li a{
+  text-decoration: none;
+  font-size: 15px;
+  color: var(--color-white);
+}
+ .middlenav ul li:hover .dropdownMenu{
+  display: block;
+   position: absolute;
+   top: 100%;
+   left: 2px;
+   background-color: var(--color-black);
+}
+  .dropdownMenu ul{
+     display:block; 
+       margin: 5px;
+  width: 140px;
+  padding: 5px; 
+}
+.dropdownMenu ul li a{
+ color: #e9e9e9;
+
+}
+.dropdownMenu{
+  display: none;
+}
+.rightnav  ul .button{
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.quiz{
+ position: relative;
+ top: 4px;
+}
+.rightnav ul li{
+  list-style: none;
+}
+.rightnav ul li a{
+   color: var(--color-white);
+   margin: 0 10px;
+   text-decoration:none;
+
+}
+.signup button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: var(--color-white);
+  background-color:var(--color-black) ;
+ cursor: pointer;
+}
+.theme{
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
